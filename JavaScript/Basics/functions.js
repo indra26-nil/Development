@@ -21,20 +21,15 @@ let mul = (a, b) => {
 };
 console.log(mul(12, 45));
 
-function display(num=12,num2=12){
-    console.log(num+num2);
-    
-
+function display(num = 12, num2 = 12) {
+  console.log(num + num2);
 }
+display(23);
 
-display(23)
+//Spread operator
 
-
-//Spread operator 
-
-function op(a,b,...c){
-  a[0]=12
-  console.log(a,b,c);
-  
+function op(a, b, ...c) {
+  a[0] = 12;
+  console.log(a, b, c);
 }
-op(1,2,3,4,5)
+op(1, 2, 3, 4, 5);
